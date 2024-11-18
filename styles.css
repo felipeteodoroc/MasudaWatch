@@ -1,6 +1,9 @@
 body {
     color: white;
-    background: black;
+    background: rgb(235, 134, 209);
+    margin: 5px;
+    font-family: "Doto", sans-serif;
+    margin-bottom: 100px;
 }
 
 header {
@@ -10,8 +13,7 @@ header {
     color: rgb(198, 218, 47);
 }
 
-
-section {
+.chamada {
     background: rgb(205, 192, 48);
     padding-bottom: 80px;
     padding-top: 75px;
@@ -21,4 +23,38 @@ section {
 
 .chamada-texto {
     margin-right: 6%;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.videos-diferentes {
+    display: flex;
+    overflow-x: auto;
+    gap: 25px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.videos-diferentes img {
+opacity: 0.3;
+height: 10px;
+}
+
+.videos-diferentes img:hover {
+opacity:1.0;
+border: 1px solid yellow;
+}
+
+.categoria h2 {
+    color: rgb(198, 218, 47);
 }
