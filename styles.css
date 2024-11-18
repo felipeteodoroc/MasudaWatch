@@ -7,4 +7,18 @@ header {
     border-bottom: solid 2px rgb(198, 218, 47);
     padding: 20px;
     font-size: 30px;
+    color: rgb(198, 218, 47);
+}
+
+
+section {
+    background: rgb(205, 192, 48);
+    padding-bottom: 80px;
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 6%;
 }
